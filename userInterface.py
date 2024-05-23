@@ -9,7 +9,6 @@ class userInterface:
     wallets = [100]*5
     currentTransactions = []
 
-    # these four functions are required for the assignment
     def moneyTransfer(self):
         transaction = input("[from, to, amount]: ").split()
         try:
